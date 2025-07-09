@@ -1,24 +1,46 @@
-# dependencies
-node_modules/
+# === DEPENDENCIES ===
+**/node_modules/
 bower_components/
 
-# production
+# === PRODUCTION BUILD ===
 build/
 dist/
+frontend/build/
+backend/build/
 
-# misc
-.DS_Store
+# === ENVIRONMENT VARIABLES ===
 .env
 .env.local
 .env.*.local
+backend/.env
+frontend/.env
+
+# === LOG FILES ===
 *.log
+logs/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
-# VSCode
-.vscode/
-
-# OS junk
+# === SYSTEM FILES ===
+.DS_Store
 Thumbs.db
 ehthumbs.db
+
+# === IDE/EDITOR FILES ===
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# === FRONTEND CACHE/TOOLS ===
+frontend/.cache/
+frontend/coverage/
+frontend/.next/
+frontend/out/
+
+# === BACKEND COVERAGE ===
+backend/coverage/
