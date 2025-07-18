@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router'
 import { Toaster } from 'react-hot-toast'
 
 import HomePage from './pages/HomePage.jsx';
-import CreatePage from './pages/CreatePage.jsx';
+import CreatePage from './pages/Create.jsx';
 import NoteDetailsPage from './pages/NoteDetailsPage.jsx';
 import toast from 'react-hot-toast';
 
